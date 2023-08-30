@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Churn Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>       ChurnSage</h1>
+    <form method="POST" action="/predict">
+        <label for="CreditScore">Credit Score:</label>
+        <input type="text" id="CreditScore" name="CreditScore" required>
+        <br>
+        <label for="Geography">Geography:</label>
+        <select id="Geography" name="Geography" required>
+            <option value="0">France</option>
+            <option value="1">Spain</option>
+            <option value="2">Germany</option>
+        </select>
+        <br>
+        <label for="Gender">Gender:</label>
+        <select id="Gender" name="Gender" required>
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select>
+        <br>
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" name="Age" required>
+        <br>
+        <label for="Tenure">Tenure:</label>
+        <input type="text" id="Tenure" name="Tenure" required>
+        <br>
+        <label for="Balance">Balance:</label>
+        <input type="text" id="Balance" name="Balance" required>
+        <br>
+        <label for="NumOfProducts">Number of Products:</label>
+        <input type="text" id="NumOfProducts" name="NumOfProducts" required>
+        <br>
+        <label for="IsActiveMember">Active Member:</label>
+        <select id="IsActiveMember" name="IsActiveMember" required>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+        <br>
+        <label for="EstimatedSalary">Estimated Salary:</label>
+        <input type="text" id="EstimatedSalary" name="EstimatedSalary" required>
+        <br>
+        <label for="Credit_limit">Credit Limit:</label>
+        <input type="text" id="Credit_limit" name="Credit_limit" required>
+        <br>
+        <label for="Age_Group">Age Group:</label>
+        <select id="Age_Group" name="Age_Group" required>
+            <option value="0">Young Adults</option>
+            <option value="1">Middle-aged Adults</option>
+            <option value="2">Late Middle-aged Adults</option>
+            <option value="3">Senior Adults</option>
+        </select>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
