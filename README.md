@@ -1,11 +1,16 @@
 # Bank Customer Churn Prediction
 
-[![Video Demo](https://example.com/video_thumbnail.png)](https://example.com/video_link.mp4)
+![churn1](https://raw.githubusercontent.com/Francesodira/Churn-Prediction-Project/main/assets/143646455/072d00be-57d0-49b9-9798-b80d2ca5f8bf.png)
+
+![churn2](https://raw.githubusercontent.com/Francesodira/Churn-Prediction-Project/main/assets/143646455/9d26fff7-df95-4357-acf6-4bc59a2bab12.png)
+
+![churn3](https://raw.githubusercontent.com/Francesodira/Churn-Prediction-Project/main/assets/143646455/04e73ce4-469d-4da0-bd98-778f120b02cd.png)
+
 
 
 # Bank Customer Churn Prediction
 
-![Project Logo](project_logo.png)
+
 
 ## Overview
 
