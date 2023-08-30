@@ -60,7 +60,7 @@ The best-performing model is saved and deployed into a Flask web application to 
 
 ## Contributors
 
-- [Frances odira Omegara](https://github.com/yourusername) - Data Scientist
+- [Frances odira Omegara](https://github.com/yourusername) - Student
 
 
 
